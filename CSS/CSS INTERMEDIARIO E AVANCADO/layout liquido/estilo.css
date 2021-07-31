@@ -1,0 +1,116 @@
+body
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* a pagina toda */
+#container
+{
+    width: 720px;
+    margin: 0 auto;
+    background: #fff;
+}
+
+
+
+/* Cabeçalho */
+#marca
+{
+    height: 100px;
+    background: #9e9e9e;
+    text-align: center;
+    line-height: 100px;
+}
+
+
+
+/* Conteudos */
+#conteudo
+{
+    width: 520px;
+    float: right;
+}
+
+#conteudo h1
+{
+    text-align: center;
+}
+
+#conteudo p
+{
+    text-align: justify;
+    margin: 5px 10px 5px 5px;
+}
+
+#conteudo-principal
+{
+    width: 300px;
+    float: left;
+
+}
+
+#conteudo-secundario
+{
+    width: 200px;
+    float: right;
+    background: #cccaca;
+    padding: 10px;
+    margin: 0;
+}
+
+
+
+
+/*Menus de navegação */
+#navegacao
+{
+    width: 180px;
+    float: left;
+    padding: 10px 0px;
+}
+
+/*Menus de navegação -- lista geral */
+#navegacao ul
+{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+/*Menus de navegação -- seletores da lista */
+#navegacao ul li
+{
+    padding: 5px;
+    text-align: center;
+    margin: 5px;
+    background: rgb(85, 15, 15);
+}
+
+/*Menus de navegação -- link da lista*/
+#navegacao ul a
+{
+    text-decoration: none;
+    color: #fff;
+}
+
+/*Menus de navegação -- link da lista quando o mouse passa por cima*/
+#navegacao ul a:hover
+{
+    color: rgb(85, 15, 15);
+    background: #fff;
+    line-height: 15px;
+}
+
+
+
+
+
+
+/* Rodape*/
+#rodape
+{
+    clear: both;
+    background: #c4c4c4;
+    padding: 5px;
+
+}

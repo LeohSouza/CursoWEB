@@ -1,0 +1,42 @@
+/*Animacao e o nome*/
+@keyframes animacao-caixa
+{
+    from /*DE*/
+    {
+        background:green;
+        width: 0px;
+        height: 0px;
+        border-radius: 300px;
+    }
+    
+    to/*PARA*/
+    {
+        background:red;
+        width: 300px;
+        height: 300px;
+        border-radius: 0px;
+    }
+} 
+
+#caixa
+{
+    height: 300px;
+    width: 300px;
+    background: red;
+    animation: animacao-caixa 5s 3s 2 alternate;
+    /*
+    animation-name: animacacao-caixa; nome da animação 
+    animation-duration: 5s; tempo de duração
+    animation-delay: 3s; Tempo que espera para começar
+    animation-iteration-count: 2; quantas vezes quer que se repita
+    animation-direction: alternate; Como a animação começará e se repetira, caso escolha alternado vai começar e na outra fará o reverso, se escolhe o reverso será executado de trás para frente
+    */
+    
+}
+
+#caixa:hover
+{
+    transition: all 2s;
+    background:yellow;
+    width: 500px;
+}

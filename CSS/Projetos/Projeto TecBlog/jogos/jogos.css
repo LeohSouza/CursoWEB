@@ -1,0 +1,75 @@
+
+/*corpo*/
+#principal
+{
+    width: 1300px;
+    margin: 0 auto;
+}
+
+/*Jogos gerais*/
+div#todos-jogos
+{
+    width: 1000px;
+    padding: 10px;
+    float: left;
+}
+
+/*Jogos card*/
+.jogo
+{
+    background-color: white;
+    width: 300px;
+    font-size: 0.8em;
+    padding: 5px;
+    float:left;
+    text-align: justify;
+    margin: 10px;
+}
+
+.jogo img
+{
+    width: 280px;
+    height: 150px;
+    margin: 5px;
+}
+
+.jogo h2
+{
+    text-align: center;
+}
+
+
+/*lateralzinha */
+div#lateral
+{
+    width: 280px;
+    float: right;
+}
+
+
+/*recomendaçoes lateral*/
+div#recomendacoes, div#lancamentos
+{
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+    text-align: justify;
+}
+
+div#recomendacoes p, div#lancamentos p
+{
+    margin: 5px;
+    font-size: 0.8em;
+}
+
+div#recomendacoes img, div#lancamentos img
+{
+    width:230px ;
+    height:110px ;
+    padding: 5px;
+}
+/*lancamentos lateral*/
+div#lancamentos
+{
+    margin: 20px 10px;
+}

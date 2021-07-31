@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programas de média</title>
+</head>
+<body>
+    
+    <div id="formulario">
+
+        <h1>Programa de Média</h1>
+
+        <form>
+            <fieldset>
+                <legend>Notas</legend>
+
+                <p>
+                    Digite a Nota 1: <input type="number" name="Nota1" id="Nota1">
+                </p>
+
+                <p>
+                    Digite a Nota 2: <input type="number" name="Nota2" id="Nota2">
+                </p>
+
+                <p>
+                    Digite a Nota 3: <input type="number" name="Nota3" id="Nota3">
+                </p>
+
+                <p>
+                    Digite a Nota 4: <input type="number" name="Nota4" id="Nota4">
+                </p>
+
+                <button onclick="calcularMedia()">Calcular Media</button>
+            </fieldset>
+        </form>
+
+        <div id ="resultado">
+
+        </div>
+    </div>
+
+    <script>
+
+        //variaveis globais
+        
+            
+        function calcularMedia()
+        {     
+            var n1 = Number(document.getElementById('Nota1').value)
+            var n2 = Number(document.getElementById('Nota2').value)
+            var n3 = Number(document.getElementById('Nota3').value)
+            var n4 = Number(document.getElementById('Nota4').value) 
+
+            var media = (n1 + n2 + n3 + n4)/4            
+
+            window.alert(media)
+            
+           
+        }
+
+        
+    </script>
+</body>
+</html>

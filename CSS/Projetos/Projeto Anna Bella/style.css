@@ -1,0 +1,49 @@
+body{
+    background: #d2d2c1 url(original/fundo.png) fixed repeat;
+    font: normal 16px Arial, sans-serif;
+    
+}
+
+div#menu{
+    border:1px  ;
+    padding: 18px;
+    background: #c5c5b2;
+    text-align: center;
+}
+
+div#principal{
+    width: 900px;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+footer
+{
+    text-align: center;
+    font-weight: bold;
+}
+
+h1
+{
+    color:#828271;
+}
+
+section{
+    background:#e8e8d9;
+    padding: 15px;
+}
+
+a{
+    color: #4b566a;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.foto{
+    border:4px #6e6e60 solid;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}

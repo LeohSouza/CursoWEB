@@ -1,0 +1,82 @@
+/* ----- geral ------ */
+p
+{
+    text-align: justify;
+    margin: 5px 0px;
+}
+
+h2
+{
+    text-align: center;
+}
+
+hr
+{
+    margin: 6px 0px;
+    opacity: 60%;
+}
+/* ----- layout ------ */
+div#principal
+{
+    width: 1200px;
+    margin: 0px auto;
+    margin: 10px auto;
+    text-align: center;
+}
+
+div#celulares
+{
+    width: 900px;
+   float: left;
+}
+
+div.lateral
+{
+    width: 280px;
+    float: right;
+}
+
+/* ----- icones ------ */
+.celular
+{
+    width: 250px;
+    background-color: white;
+    font-size: 0.8em;
+    padding: 5px;
+    float: left;
+    margin: 10px;
+}
+
+.celular img
+{
+    width: 240px;
+    height: 210px;
+    margin: auto;
+}
+
+/* ----- lateral ------ */
+.conteudo-lateral
+{
+    background-color: white;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    margin: 10px 0px;
+}
+
+/* ----- conteudo lateral ------ */
+div#lateral
+{
+    margin: 0px auto;
+}
+.classe-lateral
+{
+    background-color: white;
+    padding: 5px;
+    font-size: 0.8em;
+}
+
+.classe-lateral img
+{
+    width:150px;
+}

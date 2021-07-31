@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title></title>
+
+        <script>
+
+            function exibirArtigo(id,callbackSucesso,callbackErro)
+            {
+                if(true)
+                {
+                    callbackSucesso('Funções de callback em JS', 'Funções de callback são muito utilizadas ...')
+                }
+                else
+                {
+                    callbackErro('Erro ao recuperar os dados')
+                }
+            }
+            
+
+            //exibirArtigo(1, function(){...}) -> funciona mais fica dificil de ler.
+
+            var callbackSucesso = function(titulo, descricao)
+            {
+                document.write('<h1>'+ titulo + '</h1>')
+                document.write('<br>'+ descricao)
+            }
+
+            var callbackErro = function(erro)
+            {
+                document.write('<b>Erro: </b>'+ erro )
+            }
+
+            exibirArtigo(1,callbackSucesso,callbackErro)
+
+        </script>
+    </head>
+    <body>
+        
+    </body>
+</html>

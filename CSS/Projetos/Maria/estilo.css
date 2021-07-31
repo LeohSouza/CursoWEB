@@ -1,0 +1,48 @@
+/*GERAIS*/
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+header
+{
+    height: 150px;
+    background: rgb(185, 231, 132);
+    display: flex;
+    border: 1px solid red;
+}
+
+body
+{
+    background: #fff;
+    color: #000;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+a
+{
+    color: #fff;
+}
+
+div#container
+{
+    width: 1200px;
+    margin: 0 auto;
+}
+/*CABECALHO*/
+#logo
+{
+    float: left;
+}
+nav#navegacao
+{
+    float: right;
+}
+
+nav#navegacao a
+{
+    padding: 0 10px;
+    border: 1px solid red;
+    font-size: 1.1em;
+}

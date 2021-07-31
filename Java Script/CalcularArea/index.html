@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcular Area</title>
+    <script>
+
+        
+        //função nomedafunção(parametros)
+        /*
+            os paramentros pode receber os dois valores conforme abaixo, ou meros ou mais sem dá erro ...
+            exemplo:
+
+            calcularAreaTerreno (1,2,4,5) <- so irar considera os dois primeiro
+
+            calcularAreaTerreno (1) <- o segundo valor irá ficar como underfined
+        */
+        function calcularAreaTerreno(largura, comprimento)
+        {
+            var area = largura * comprimento
+
+            return area //retorna o valor para função
+        }
+
+        var largura = window.prompt('Digite a largura do terreno em metros: ')
+
+        var comprimento = window.prompt('Digite o comprimento do terreno em metros: ')
+
+        var area = calcularAreaTerreno(largura,comprimento)
+
+
+        document.write('O terreno possui ' + area + ' metros')
+        
+    </script>
+</head>
+<body>
+    
+
+    
+</body>
+</html>

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finance</title>
+
+    <style>
+
+        header
+        {
+            font: normal 15pt Arial Narrow;
+        }
+
+        section 
+        {
+            font:normal 10pt Arial Narrow;
+        }
+
+        footer
+        {
+            height: 75px;
+            width: 100%;
+            text-align: center;
+        }
+
+        form
+        {
+            margin: auto;
+            width: 300px;
+            border-radius: 15px;
+            height: auto;
+            box-shadow: rgba(0, 0, 0, 0.534) 5px 5px 5px;
+            text-align: center;
+            border: 1px solid black;
+        }
+
+        h1
+        {
+            color: rgb(39, 170, 104);
+            font:normal 25pt Arial Narrow;
+        }
+
+        div.div-form
+        {
+            padding: 3px;
+        }
+
+        h1#Icone
+        {
+            font: normal 45pt BadaBoom BB;
+        }
+
+        a:link, a:visited, a:hover, a:active
+        {
+            color:black;
+            text-decoration:none;
+        }
+
+    </style>
+
+</head>
+<body>
+    <header>
+        <!--Cabeçalho-->
+        <div>
+            <h1 id="Icone">Finance</h1>
+            
+            <!--Menus-->
+            <nav>
+                <Ul>
+                    
+                    <li>
+                         <a href="#">
+                             Home
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#"> 
+                            Cadastro
+                        </a>
+                    </li>
+
+                    
+                    <li>
+                        <a href="#">
+                            Sobre Nos
+                        </a>
+                    </li>
+                    
+                    <input type="button" value="Login">
+                </Ul>
+            </nav>
+
+        </div>
+        
+    </header>
+
+    <!--Conteudo-->
+    <section>
+
+        <!--Formulario de Login-->
+        <form action="">
+
+            <h1>Login</h1>
+
+            <div id="email" class="div-form">
+                Email:
+                <input type="email" name="email" id="emailcadastro">
+            </div>
+
+            <div id="senha" class="div-form">
+                Senha:
+                <input type="password" name="senha" id="senhaemail">
+            </div>
+
+            <div id="button-form" class="div-form"></div>
+                <input type="button" value="Entrar" onclick="login()">
+            </div>
+
+            <div id="button-form" class="div-form">
+                <a href="cadastro.html">Cadatro</a>
+            </div>
+        </form>
+
+    </section>
+
+    <!--Rodapé-->
+    <footer>
+        &copy;Leonardo Souza
+    </footer>
+</body>
+</html>

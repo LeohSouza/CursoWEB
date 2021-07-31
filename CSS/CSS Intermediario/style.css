@@ -1,0 +1,17 @@
+.conteudo{
+    border: 1px solid red;
+    padding-top:20px ;
+    padding-right: 20px;
+    padding-left: 20px;
+    
+    width: 150px;
+    /* padding: 20px <- top 15px <- right 10px <- bottom 5px <- lef
+    padding: 20px; <- pega para todos os lados
+    padding: 20px 10px; <- 20 top, bottom e 10 left e right
+
+    margin <- por fora, mesmo sistema de padding 
+    margin nao se junta, se tiver uma de 30px e outra de 20px, vai ficar so 30px pois sempre utiliza-se a maior
+
+    */
+
+}

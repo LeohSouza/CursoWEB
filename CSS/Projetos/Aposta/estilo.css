@@ -1,0 +1,95 @@
+/* CONFIGURACOES GERAIS */
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+ul
+{
+    list-style: none;
+}
+
+.clear
+{
+    clear: both;
+}
+
+
+/* TOPO */
+#topo
+{
+    background: rgb(255, 251, 3) url(./Aposta.png) no-repeat center top;
+    height: 200px;
+    background-size:contain;
+    position: relative;
+    width: 100%;
+}
+
+ul#menu
+{
+    position: absolute;
+    bottom: 0px;
+    background: black;
+    width: 100%;
+    text-align: center;
+}
+
+ul#menu li
+{
+    display: inline;
+    color: #fff;
+    
+}
+
+/*CONTAINER */
+#container
+{
+    width: 1000px;
+    margin: 0 auto;
+
+}
+
+/*Cards */
+.card
+{
+    width: 300px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+    float: left;
+    margin: 10px 5px;
+}
+
+.card img
+{
+    width: 280px;
+    height: 280px;
+    margin: 5px 10px;
+    border: 1px solid #ccc;
+}
+
+.nomes
+{
+    text-align: center;
+    border-bottom: 1px solid rgba(204, 204, 204, 0.767);
+}
+
+.titulo-informacao
+{
+    display: inline;
+}
+
+/*Informacoes*/
+ul#lista-info
+{
+    margin-left: 50px;
+}
+
+ul#lista-info li
+{
+    margin: 5px;
+    padding: 5px;
+    font-size: 0.8em;
+    display: inline;
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Estilizando formularios</title>
+        <link rel="stylesheet" href="estilo.css">
+    </head>
+    <body>
+        <form>
+
+            <!--Agrupamento de dados semelhante-->
+            <fieldset>
+
+                <!--Legenda para explicar o fieldset-->
+                <legend>
+                    Detalhes de contato
+                </legend>
+
+                <div id="nome">
+
+                    <!--Colocar o nome-->
+                    <label for="nome">
+                        Nome:
+                    </label>
+                    <input type="text" name="nome" id="nome">
+
+                    <!--Colocar o sobrenome-->
+                    <label for="sobrenome">
+                        Sobrenome
+                    </label>
+                    <input type="text" name="sobrenome" id="sobrenome">
+
+
+                </div>
+
+                <div id="email">
+                    <label for="email">
+                        Email:
+                    </label>
+                    <input type="email" name="email" id="email">
+                </div>
+
+            </fieldset>
+
+            <fieldset>
+
+                <legend>
+                    Comentarios
+                </legend>
+
+                <div>
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea name="mensagem" id="mensagem"></textarea>
+                </div>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Lembrar de mim</legend>
+                <div>
+
+                    <label for="lembrar">
+                        Lembrar: 
+                        <input type="radio" class="radio" name="lembrar" id="Sim" checked>Sim
+
+                        <input type="radio" class="radio" name="lembrar" id="nao">Nao
+
+                    </label>
+
+                </div>
+            </fieldset>
+
+        </form>
+    </body>
+</html>

@@ -1,0 +1,33 @@
+ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul a
+{
+    width: 200px;
+    height: 40px;
+    color: #000000;
+    line-height: 40px; /*altura da linha */
+    text-decoration: none;
+    text-indent: 40px;
+    display: block;
+    background:#f7b600 url(imagens/menu.png) no-repeat ;
+}   
+
+ul a:hover, .selecionado a
+{
+    background-position: right bottom;
+    color: #ffffff;
+}
+
+#home #navegacao-lateral .home a,
+#sobre #navegacao-lateral .sobre a,
+#servicos #navegacao-lateral .servicos a
+{  
+    background-position: right bottom;
+    background-color: #f99200;
+    color:#fff;
+}
